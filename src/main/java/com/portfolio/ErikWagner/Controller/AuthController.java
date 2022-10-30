@@ -28,7 +28,7 @@ import javax.validation.Valid;
 import java.util.HashSet;
 import java.util.Set;
 
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "https://erikmwagnerap.web.app")
 
 
 @RestController
