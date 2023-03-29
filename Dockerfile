@@ -1,4 +1,4 @@
-FROM amazoncorretto:8-alpine-jdk
+FROM amazoncorretto:11-alpine-jdk
 MAINTAINER ErikWagner
-COPY target/ErikWagner.jar ErikWagner.jar
-ENTRYPOINT ["java","-jar","/ErikWagner.jar"]
+COPY target/ErikWagner.jar Ew.jar
+ENTRYPOINT ["java","-jar","/Ew.jar"]
