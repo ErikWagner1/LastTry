@@ -1,5 +1,5 @@
 <component name="ArtifactManager">
-  <artifact type="jar" name="ErikWagner:jar">
+  <artifact type="jar" build-on-make="true" name="ErikWagner:jar">
     <output-path>$PROJECT_DIR$/target</output-path>
     <root id="archive" name="ErikWagner.jar">
       <element id="module-output" name="ErikWagner" />
